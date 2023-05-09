@@ -37,3 +37,20 @@ React - Declaritive approach, splitting into smaller components
 
 Angular - has more fetures, using Typescript, can be overkill for small projects
 Vue - Includes most core features, not as popular
+
+Nested paths and file based routing
+
+- can create a folder inside other folders with either an index,js file or a nested file with another name
+
+Dynamic Paths
+
+- [] square brackets allow you to add dynamic paths
+  next will always check for static files first when a url is entered, then will use the dynamic path
+
+- [...] path = a catch all values that appear in the query. These will appear as elements in an array
+
+PROS of using Next.js
+
+- No extra boilerplate as with react-router
+- Intuitive
+- File and folder structure influences routes
